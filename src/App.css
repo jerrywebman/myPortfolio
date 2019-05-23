@@ -1,0 +1,19 @@
+
+.App {
+  text-align: center;
+}
+
+.NavLinks{
+  color: rgb(10, 10, 10);
+  font-size: 5vh;
+  font-weight: bolder;
+}
+/* //footer */
+.footer {
+  position: absolute; 
+  left: 0 ; right: 0; bottom: 0; 
+  height:[footer-height] ;
+  text-align: center;
+  color: white;
+  background:rgb(66, 64, 64);
+}
