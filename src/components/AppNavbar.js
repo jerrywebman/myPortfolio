@@ -8,22 +8,11 @@ import {
     Nav,
     NavItem,
     NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem
+    Button
+
 } from 'reactstrap';
 
 class AppNavbar extends React.Component {
-    //     render() {
-    //         return (
-    //             <div>
-    //                 <Link to="/Portfolio"><Button>Portfolio</Button></Link>
-    //                 <Link to="/Contact"><Button>Contact</Button></Link>
-    //             </div>
-    //         );
-    //     }
-    // }
     constructor(props) {
         super(props);
 
@@ -39,20 +28,20 @@ class AppNavbar extends React.Component {
     }
     render() {
         return (
-            <div>
-                <Navbar color="light" light expand="md">
+            <div className="navBar">
+                <Navbar light expand="md" navbar color="dark">
                     <NavbarBrand ><Link to="/" className="NavLinks">JerryWebman</Link></NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
-                        <Nav className="ml-auto" navbar>
+                        <Nav className="ml-auto">
                             <NavItem>
-                                <NavLink><Link to="/" className="NavLinks">Home</Link></NavLink>
+                                <NavLink><Link to="/"><Button className="NavLinks" outline color="success">Home</Button></Link></NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink><Link to="/portfolio" className="NavLinks">Portfolio</Link></NavLink>
+                                <NavLink><Link to="/portfolio" ><Button className="NavLinks" outline color="success">Portfolio</Button></Link></NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink><Link to="/contact" className="NavLinks">Contact</Link></NavLink>
+                                <NavLink><Link to="/contact"><Button outline color="success" className="NavLinks">Contact</Button></Link></NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
