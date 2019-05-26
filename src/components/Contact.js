@@ -14,6 +14,11 @@ class Contact extends React.Component {
         return (
             <div >
                 <Container>
+
+                    <h3 className="headers">CONTACT US</h3>
+                    <hr className="headersLine"></hr>
+
+
                     <Form className="contactform">
                         <FormGroup>
                             <Label for="name">FullName</Label>

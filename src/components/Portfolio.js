@@ -6,6 +6,10 @@ class Portfolio extends React.Component {
     render() {
         return (
             <div>
+
+                <h3 className="headers">MY CLIENT PORTFOLIO</h3>
+                <hr className="headersLine"></hr>
+
                 <SliderCarousel />
                 <Row>
                     <Col sm="6">

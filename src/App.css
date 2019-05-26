@@ -3,12 +3,15 @@
   text-align: center;
 }
 
+.navBar{
+  background-color: salmon;
+}
 
 .NavLinks{
   color:whitesmoke;
   font-size: 3vh;
   font-weight: bolder;
-  margin: 0 3vh;
+  margin: 0 1vh;
 
 }
 .NavLinks:hover{
@@ -17,7 +20,7 @@
 }
 
 .jumbotron{
- margin-top: 5vh;
+ margin-top: 3vh;
  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -26,16 +29,28 @@
 .jumbotron Button{
   float: Right;
 }
+.headers{
+  font-weight: bold;
+  text-align: center;
+  color: salmon;
+  margin-top: 10vh;
+}
+
+.headersLine{
+  width: 20%;
+  height: 3px;
+  background-color: salmon;
+}
 
 .card{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-  margin: 5vh 0;
+  margin: 3vh 0;
 }
 
 .carousel{
-  margin: 5vh 0;
+  margin: 3vh 0;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;

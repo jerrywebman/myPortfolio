@@ -5,15 +5,18 @@ class Home extends React.Component {
     render() {
         return (
             <div>
-                <Jumbotron class="jumboron" fluid>
+                <Jumbotron class="jumboron JumboImg" fluid>
                     <Container fluid>
-                        <img src=""  ></img>
+                        <img src="" ></img>
                         <h1 className="display-3">Fluid jumbotron</h1>
                         <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
                         <Button outline color="success">see my works here</Button>
                     </Container>
                 </Jumbotron>
 
+
+                <h3 className="headers">MY KNOWLEDGE BASE</h3>
+                <hr className="headersLine"></hr>
                 <Row>
                     <Col sm="6">
                         <Card body color="">
@@ -38,8 +41,13 @@ class Home extends React.Component {
                 </Row>
 
 
+                <h3 className="headers">CLIENT PORTFOLIO</h3>
+                <hr className="headersLine"></hr>
 
                 <SliderCarousel className="carousel" />
+
+                <h3 className="headers">WHAT I CAN OFFER</h3>
+                <hr className="headersLine"></hr>
                 <Row>
                     <Col sm="12" md={{ size: 6, offset: 3 }}>
                         <Card body inverse color="success" >
@@ -48,7 +56,6 @@ class Home extends React.Component {
                         </Card>
                     </Col>
                 </Row>
-
 
                 <Row>
                     <Col sm="6">
