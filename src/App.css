@@ -20,14 +20,46 @@
 }
 
 .jumbotron{
+  background-image: url('https://i.imgur.com/GoiKzJB.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
  margin-top: 3vh;
  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
 
-.jumbotron Button{
+.jumbotronTitle{
+  color: white;
+  font-weight: bolder;
+  filter: none;
+}
+
+.lead{
+  color: green;
+  font-weight: bold;
+  margin-top: 10vh;
+}
+
+/* .jumbotron Button{
   float: Right;
+  margin-top: 60% auto;
+  
+} */
+
+.contextTitle{
+  font-weight: bolder;
+  text-align: center;
+  font-size: 1.5em;
+  color: #929292;
+}
+
+.contextBody{
+  font-weight: bold;
+  text-align: justify;
+  font-size: 1em;
+  color: rgb(109, 109, 110);
 }
 .headers{
   font-weight: bold;
@@ -58,14 +90,27 @@
 
 /* //footer */
 .footer {
-  position: absolute; 
-  left: 0 ; right: 0; bottom: 0; 
-  height:[footer-height] ;
-  text-align: center;
-  color: white;
+  
   background:rgb(66, 64, 64);
 }
 
+.footerFonts{
+  text-align: center;
+}
+
+.footerFonts span a > i{
+  color: salmon;
+  position:relative;
+  top: calc(50% - 10px);
+  margin-right: 2em;
+}
+
+.footer h5{
+  text-align: center;
+  color: white;
+  margin-top: 0.5em;
+
+}
 .contactform{
   margin: 15vh 0;
   padding: 3vh;

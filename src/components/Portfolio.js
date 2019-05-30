@@ -14,29 +14,29 @@ class Portfolio extends React.Component {
                 <Row>
                     <Col sm="6">
                         <Card body color="">
-                            <CardTitle>Special Title Treatment</CardTitle>
-                            <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+                            <CardTitle className="contextTitle">Special Title Treatment</CardTitle>
+                            <CardText className="contextBody">With supporting text below as a natural lead-in to additional content.</CardText>
                             <Button outline color="success">Visit Website here</Button>
                         </Card>
                     </Col>
                     <Col sm="6">
                         <Card body>
-                            <CardTitle>Special Title Treatment</CardTitle>
-                            <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+                            <CardTitle className="contextTitle">Special Title Treatment</CardTitle>
+                            <CardText className="contextBody">With supporting text below as a natural lead-in to additional content.</CardText>
                             <Button outline color="success">Visit Website here</Button>
                         </Card>
                     </Col>
                     <Col sm="6">
                         <Card body>
-                            <CardTitle>Special Title Treatment</CardTitle>
-                            <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+                            <CardTitle className="contextTitle">Special Title Treatment</CardTitle>
+                            <CardText className="contextBody">With supporting text below as a natural lead-in to additional content.</CardText>
                             <Button outline color="success">Visit Website here</Button>
                         </Card>
                     </Col>
                     <Col sm="6">
                         <Card body>
-                            <CardTitle>Special Title Treatment</CardTitle>
-                            <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+                            <CardTitle className="contextTitle">Special Title Treatment</CardTitle>
+                            <CardText className="contextBody">With supporting text below as a natural lead-in to additional content.</CardText>
                             <Button outline color="success">Visit Website here</Button>
                         </Card>
                     </Col>

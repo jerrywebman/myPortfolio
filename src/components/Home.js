@@ -7,35 +7,35 @@ class Home extends React.Component {
             <div>
                 <Jumbotron class="jumboron JumboImg" fluid>
                     <Container fluid>
-                        <img src="" ></img>
-                        <h1 className="display-3">Fluid jumbotron</h1>
-                        <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-                        <Button outline color="success">see my works here</Button>
+                        <h2 className="display-3 jumbotronTitle">I AM</h2>
+                        <h2 className="display-3 jumbotronTitle"> JERRY IFEANYI. </h2>
+                        <h5 className="lead">I Build Responsive Web Applications.</h5>
+                        {/* <Button outline color="success">My Portfolio</Button> */}
                     </Container>
                 </Jumbotron>
 
 
-                <h3 className="headers">MY KNOWLEDGE BASE</h3>
+                <h3 className="headers">WHO I AM</h3>
                 <hr className="headersLine"></hr>
                 <Row>
                     <Col sm="6">
                         <Card body color="">
-                            <CardTitle>Special Title Treatment</CardTitle>
-                            <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+                            <CardTitle className="contextTitle">Successful Web Developer</CardTitle>
+                            <CardText className="contextBody">I am a web developer who crave for perfection and on the process achieved excellence. Let's work together,so you can feel the awesomeness of my work. </CardText>
                         </Card>
                     </Col>
                     <Col sm="6">
                         <Card body>
-                            <CardTitle>Special Title Treatment</CardTitle>
-                            <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+                            <CardTitle className="contextTitle">Planning a Tech Startup?</CardTitle>
+                            <CardText className="contextBody">I love collaborating with young minds who wants to be successful. feel free to contact me if you want to setup a team of excellent developers.</CardText>
                         </Card>
                     </Col>
                 </Row>
                 <Row>
                     <Col sm="12" md={{ size: 6, offset: 3 }}>
-                        <Card body inverse color="success" >
-                            <CardTitle>Special Title Treatment</CardTitle>
-                            <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+                        <Card body inverse >
+                            <CardTitle className="contextTitle">Giving/Sharing Ideas</CardTitle>
+                            <CardText className="contextBody">The passion to teach young people and guide them through the process of building top class and great web Apps keeps me going. if you want to learn web technologies, feel free to contact me as i will be ready to support you.</CardText>
                         </Card>
                     </Col>
                 </Row>
@@ -46,13 +46,13 @@ class Home extends React.Component {
 
                 <SliderCarousel className="carousel" />
 
-                <h3 className="headers">WHAT I CAN OFFER</h3>
+                <h3 className="headers">WHAT I DO</h3>
                 <hr className="headersLine"></hr>
                 <Row>
                     <Col sm="12" md={{ size: 6, offset: 3 }}>
-                        <Card body inverse color="success" >
-                            <CardTitle>Special Title Treatment</CardTitle>
-                            <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+                        <Card body inverse >
+                            <CardTitle className="contextTitle">Provide Top-class Web Solutions</CardTitle>
+                            <CardText className="contextBody">Build, design and manage your web applications.</CardText>
                         </Card>
                     </Col>
                 </Row>
@@ -60,14 +60,14 @@ class Home extends React.Component {
                 <Row>
                     <Col sm="6">
                         <Card body color="">
-                            <CardTitle>Special Title Treatment</CardTitle>
-                            <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+                            <CardTitle className="contextTitle">Teach Young Minds</CardTitle>
+                            <CardText className="contextBody">Aspire to be a Tech guru in Web Technologies?, want to Own Your Own Learning?, contact me.</CardText>
                         </Card>
                     </Col>
                     <Col sm="6">
                         <Card body>
-                            <CardTitle>Special Title Treatment</CardTitle>
-                            <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+                            <CardTitle className="contextTitle">Awesome Team Player</CardTitle>
+                            <CardText className="contextBody">Need me in your team for a part time/contract offer?, please feel free to contact me.</CardText>
                         </Card>
                     </Col>
                 </Row>
