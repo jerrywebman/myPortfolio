@@ -30,18 +30,18 @@ class AppNavbar extends React.Component {
         return (
             <div className="navBar">
                 <Navbar className="navBar" light expand="md" navbar>
-                    <NavbarBrand ><Link to="/" className="NavLinks">JerryWebman</Link></NavbarBrand>
+                    <NavbarBrand className="navname"><Link to="/" >JERRYWEBMAN</Link></NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto">
                             <NavItem>
-                                <NavLink><Link to="/"><Button className="NavLinks" outline color="success">Home</Button></Link></NavLink>
+                                <NavLink><Link to="/"><Button className="NavLinks" >Home</Button></Link></NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink><Link to="/portfolio" ><Button className="NavLinks" outline color="success">Portfolio</Button></Link></NavLink>
+                                <NavLink><Link to="/portfolio" ><Button className="NavLinks">Portfolio</Button></Link></NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink><Link to="/contact"><Button outline color="success" className="NavLinks">Contact</Button></Link></NavLink>
+                                <NavLink><Link to="/contact"><Button className="NavLinks">Contact</Button></Link></NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
