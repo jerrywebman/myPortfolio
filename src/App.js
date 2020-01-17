@@ -27,6 +27,7 @@ function App() {
           <Route path="/portfolio" component={Portfolio} />
           <Route component={Error} />
         </Switch>
+        <Contact />
       </Container>
       <Footer />
     </BrowserRouter>
